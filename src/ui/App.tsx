@@ -26,6 +26,7 @@ import {
 
 function App() {
   const { t } = useTranslation();
+  console.log("antdt");
   const messagesEndRef = useRef<HTMLDivElement>(null);
   const scrollContainerRef = useRef<HTMLDivElement>(null);
   const topSentinelRef = useRef<HTMLDivElement>(null);
